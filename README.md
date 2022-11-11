@@ -13,3 +13,10 @@ bikeshare.py
 ### Credits
 Basic repo is forked from: https://github.com/udacity/pdsnd_github 
 
+### Modification to function: time_stats
+
+```
+def time_stats(df, month, day):
+``` 
+**month** and **day** are also taken as input along with predefined **df** 
+
