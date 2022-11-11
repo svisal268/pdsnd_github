@@ -219,9 +219,11 @@ def disp_data(df):
         check = input('Enter yes/no, if you want to see 5 lines of raw data:').lower()
         if check == 'no':            
             break 
-        else: 
+        elif check == 'yes': 
             print(df.iloc[start_data:start_data+5]) 
-            start_data += 5
+            start_data += 5 
+        else: 
+            print('Please check the input')
 
 def main():
     while True:
