@@ -29,7 +29,7 @@ def get_filters():
     
     # get user input for month (all, january, february, ... , june)
     while True:
-        month = input('Enter month for which data should be processed (example: April) or enter all: ').lower() 
+        month = input('Enter month from first 6 months (example: february) for which data should be processed or enter all: ').lower() 
         months = ['all','january','february','march','april','may','june'] 
         if month in months:
             break
